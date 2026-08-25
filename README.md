@@ -55,6 +55,7 @@ python3 radio.py
 | `Y` | Refresh station list (rescan all Radio folders) |
 | `V‑` / `V+` | Volume down / up |
 | `SELECT` | Cycle UI language (EN → ZH‑CN → ZH‑TW → …) |
+| `START` | Dial style |
 | `MENUF` | Exit application |
 
 ## Configuration
