@@ -2,9 +2,9 @@
 
 A lightweight, full‑screen network radio player designed for **Anbernic RG series** devices (RG35XX, RG40XX, RG34XXSP, etc.) running EmuELEC or similar Linux distributions. It uses **SDL2 + Pillow** for rendering and **mpv** for audio playback, with a retro radio UI and real‑time spectrum visualization.
 
-<img width="640" height="480" alt="screenshot_20260825_161452" src="https://github.com/user-attachments/assets/ddd58db4-146d-423d-a49d-464e4aedf9bb" />
-
 <img width="640" height="480" alt="screenshot_20260825_161422" src="https://github.com/user-attachments/assets/7cfabbbe-3d18-4001-82be-c605dfbf2dab" />
+
+<img width="640" height="480" alt="screenshot_20260825_161452" src="https://github.com/user-attachments/assets/ddd58db4-146d-423d-a49d-464e4aedf9bb" />
 
 ## Features
 
