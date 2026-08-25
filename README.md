@@ -4,6 +4,8 @@ A lightweight, full‑screen network radio player designed for **Anbernic RG ser
 
 <img width="640" height="480" alt="screenshot_20260825_155429" src="https://github.com/user-attachments/assets/4c6f4c99-7143-45d5-b04b-79eb12c7a2ed" />
 
+<img width="640" height="480" alt="screenshot_20260825_160116" src="https://github.com/user-attachments/assets/a75fbbb0-f4d1-4f64-80a2-a6a24dbe792b" />
+
 ## Features
 
 - 📻 **Radio station browser** – scans `.txt` playlists from `/roms/Radio`, `/mnt/mmc/Radio`, `/mnt/sdcard/Radio` and local `./Radio` directory.
