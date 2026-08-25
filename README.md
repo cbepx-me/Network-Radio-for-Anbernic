@@ -4,7 +4,7 @@ A lightweight, full‑screen network radio player designed for **Anbernic RG ser
 
 <img width="640" height="480" alt="screenshot_20260825_161422" src="https://github.com/user-attachments/assets/7cfabbbe-3d18-4001-82be-c605dfbf2dab" />
 
-<img width="640" height="480" alt="screenshot_20260825_161452" src="https://github.com/user-attachments/assets/ddd58db4-146d-423d-a49d-464e4aedf9bb" />
+<img width="640" height="480" alt="screenshot_20260825_180519" src="https://github.com/user-attachments/assets/0d7c51c6-ab52-476a-9ab8-2d8cb2b439c6" />
 
 ## Features
 
