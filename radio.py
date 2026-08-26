@@ -20,6 +20,8 @@ import zipfile
 import struct
 import configparser
 
+VERSION = "1.0.0"
+
 # ============================
 # 导入第三方库 (确保已安装)
 # ============================
@@ -687,9 +689,9 @@ class RadioApp:
             APP_PATH
         ]
         for path in target_path:
-            radio_dir = os.path.join(path, "Radio")
-            if path == "/mnt/sdcard" and os.path.ismount(path):
+            if path == "/mnt/sdcard" and not os.path.ismount(path):
                 continue
+            radio_dir = os.path.join(path, "Radio")
             os.makedirs(radio_dir, exist_ok=True)
 
     def _load_config(self):
@@ -1031,7 +1033,7 @@ class RadioApp:
             
         # ---------- 顶部状态栏 ----------
         ui.rect([0,0,W,top_h], fill="#0D1B2A")
-        ui.text((12, 12), t("Network Radio"), font_size=18, color="#E0E8F0")
+        ui.text((12, 12), f'{t("Network Radio")} v{VERSION}', font_size=18, color="#E0E8F0")
         bat_str = f"{self.battery_level}%" + (" █" if self.battery_charging else " ")
         bat_color = "#4FC3F7" if self.battery_level >= 60 else "#64F6A6" if self.battery_level >= 20 else "#EF5350"
         ui.text((W-12, 22), bat_str, font_size=18, color=bat_color, anchor="rm")
