@@ -20,7 +20,7 @@ import zipfile
 import struct
 import configparser
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # ============================
 # 导入第三方库 (确保已安装)
@@ -1152,7 +1152,7 @@ class RadioApp:
                 ui.rect([vx+2, vy+2, vx+2+fw, vy+vh-2], fill="#42A5F5")
                 ui.text((vx, vy+vh+8), f"{t('Volume')} {self.player.volume}%", font_size=18, color="#B0C4DE")
             if self.player.status == "failed":
-                ui.text((vx+fw-10, vy+vh+8), f"{self.player.fail_reason[:20]}", font_size=18, color="#EF5350")
+                ui.text((vx+vw, vy+vh+18), f"{self.player.fail_reason[:20]}", font_size=18, color="#EF5350")
 
         # 底部提示
         hint1 = (
